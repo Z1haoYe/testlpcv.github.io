@@ -1,0 +1,79 @@
+.title
+{
+  margin-top: 50px;
+  font-size: 2rem;
+  /* margin-bottom: 10px; */
+  text-align: center;
+}
+
+.subtitle
+{
+  color: rgb(175, 175, 175);
+  /* margin-bottom: 5px; */
+  text-align: center;  
+}
+
+.select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  appearance: none; /* Remove default dropdown arrow for modern browsers */
+  -webkit-appearance: none; /* For Safari */
+  -moz-appearance: none; /* For Firefox */
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+}
+
+.w3-table {
+  width: 100%;
+  border-collapse: collapse;
+  /* margin: 20px 0; */
+  font-size: 14px;
+  text-align: center;
+}
+
+.w3-table th {
+  background-color: white;  
+  font-weight: bold;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.w3-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.w3-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.w3-table tr:nth-child(odd) {
+  background-color: white; 
+}
+
+.w3-table tr:nth-child(even):hover {
+  background-color: #d9d9d9; 
+}
+
+.w3-table tr:nth-child(odd):hover {
+  background-color: #e6e6e6;  
+}
+
+
+.w3-select {
+  background-color: inherit; 
+  color: white; 
+  border: 1px solid #ddd; 
+  /* padding: 10px; */
+}
+
+.w3-select option {
+  background-color: inherit; 
+  color: black; 
+}
